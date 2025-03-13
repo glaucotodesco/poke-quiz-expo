@@ -4,7 +4,7 @@ export default function RootLayout() {
   return (
     <Stack>
       <Stack.Screen name="index" options={{
-        title: "Início",
+        title: "Quiz Pokemon",
         headerShown: true,
         headerStyle: { backgroundColor: '#121212' },
         headerTintColor: '#FFD700',
