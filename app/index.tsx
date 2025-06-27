@@ -67,9 +67,10 @@ const Index = () => {
   const handleAnswer = (selected: any) => {
     
     if (selected === pokemon?.name) {
-      Alert.alert('🎉 Correto!', 'Você acertou!', [{ text: 'Próximo', onPress: fetchPokemon }]);
+      alert('🎉 Correto! Você acertou!'); 
+      fetchPokemon();
     } else {
-      Alert.alert('❌ Errado!', `O nome correto era ${pokemon?.name}`, [{ text: 'Tentar novamente' }]);
+      alert(`Errado O nome correto era ${pokemon?.name}`);
     }
   };
 
